@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            text-align: center;
+            border: dotted ;
+            padding: 10px;
+            wi
+        }
+        .head{
+           width: 100%;
+           text-align: center;
+           
+           
+        }
+        .head1{
+            border: 3px double black; 
+            margin: 0px 500px 0px 500px ;
+            padding: 30px;
+            margin-bottom: 50px;
+           
+            
+        }
+       .txt[type=text]{
+        width: 50px;
+       
+       }
+       .add[type=text]{
+            width: 230px;
+       }
+       .name{
+        margin-left: 70px;
+       }
+       .fom{
+        margin-right: 200px;
+       }
+    </style>
+</head>
+<body bgcolor="skyblue">
+    <section>
+      <div class="head">
+        <h1 class="head1">Student Registration Form</h1>
+      </div>
+      <div>
+        <form class="fom">
+            
+            <label>Name:</label>
+            <input type="text" class="name"><br><br>
+            <label>Father Name:</label>
+            <input type="text" style="margin-left: 25px;"><br><br>
+            <label>Mother Name:</label>
+            <input type="text" style="margin-left:19px;"><br><br>
+            <label>Phone Number:</label>
+            <input type="number" style="margin-left:9px;"><br><br>
+            <label>Email:</label>
+            <input type="email" style="margin-left:66px;"><br><br>
+            <label>Gender:</label>
+            <input type="radio" style="margin-left:100px;"><label>Male</label>
+            <input type="radio"><label>Female</label><br><br>
+           <label style="margin-left:90px;">Date Of Birth:</label>
+           <input type="text" class="txt" style="margin-left: 25px;">-<input type="text" class="txt">-<input type="text" class="txt" style="margin-right:10px;"><label><i>(dd-mm-yyyy)</i></label>
+           <br><br>
+           <label style="margin-left: 70px;">Address:</label>
+           <input type="text" class="add" placeholder="Street:- House:- Rode:-" style="margin-left:35px;">
+           <br><br>
+           <div style="margin-left: 10px;">
+            <label style="margin-right:90px;">Blood Group:</label>
+           <select style="margin-left:0px; width:120px; text-align: center;">
+             <option>Select</option>
+             <option>O<sub>+</sub></option>
+             <option>O<sub>-</sub></option>
+             <option>AB<sub>+</sub></option>
+             <option>AB<sub>-</sub></option>
+           </select>
+           </div>
+           <br>
+           <label>Gender:</label>
+            <input type="radio" style="margin-left:55px;"><label>CSE</label>
+            <input type="radio"><label>EEE</label>
+            <input type="radio"><label>BBA</label>
+            <br><br>
+            <label style="margin-left:210px;">Course:</label>
+            <input type="checkbox" style="margin-left:55px;"><label>C</label>
+            <input type="checkbox"><label>C++</label>
+            <input type="checkbox"><label>Java</label>
+            <input type="checkbox"><label>AI</label>
+            <input type="checkbox"><label>Machine Learning</label>
+            <input type="checkbox"><label>React JS</label>
+            <br><br>
+            <label for="" style="margin-left:55px;">Photo:</label>
+            <input type="file" style="margin-left: 50px;">
+            <br><br><br><br><br>
+            <a href="">Submit</a>
+            <button>Reset</button>
+            <input type="button" value="submit">
+        </form>
+      </div>
+    </section>
+</body>
+</html>
